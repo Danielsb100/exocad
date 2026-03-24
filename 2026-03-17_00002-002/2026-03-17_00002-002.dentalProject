@@ -12,79 +12,9 @@
   <Teeth>
     <Tooth>
       <Number>16</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -100,24 +30,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -135,13 +65,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -149,52 +72,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -204,13 +85,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -218,88 +105,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>11</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -315,24 +129,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -350,13 +164,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -364,52 +171,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -419,13 +184,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -433,88 +204,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>12</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -530,24 +228,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -565,13 +263,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -579,52 +270,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -634,13 +283,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -648,88 +303,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>13</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -745,24 +327,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -780,13 +362,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -794,52 +369,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -849,13 +382,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -863,88 +402,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>14</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -960,24 +426,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -995,13 +461,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -1009,52 +468,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -1064,13 +481,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -1078,88 +501,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>15</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -1175,24 +525,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -1210,13 +560,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -1224,52 +567,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -1279,13 +580,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -1293,88 +600,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>21</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -1390,24 +624,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -1425,13 +659,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -1439,52 +666,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -1494,13 +679,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -1508,88 +699,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>22</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -1605,24 +723,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -1640,13 +758,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -1654,52 +765,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -1709,13 +778,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -1723,88 +798,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>23</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -1820,24 +822,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -1855,13 +857,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -1869,52 +864,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -1924,13 +877,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -1938,88 +897,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>24</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -2035,24 +921,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -2070,13 +956,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -2084,52 +963,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -2139,13 +976,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -2153,88 +996,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>25</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -2250,24 +1020,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -2285,13 +1055,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -2299,267 +1062,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
-          <MinValue>-2</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>VirtualGingivaDesignMode</Type>
-          <Value>1</Value>
-          <MinValue>1</MinValue>
-          <MaxValue>1</MaxValue>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0</MaxValue>
-        </Parameter>
-      </Parameters>
-      <MaterialName>Cera</MaterialName>
-      <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
-      <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
-    </Tooth>
-    <Tooth>
-      <Number>26</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
-      <MesialConnector>false</MesialConnector>
-      <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
           <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>MillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>MillingMachineAxes</Type>
-          <Value>5</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>5</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>MinThicknessGingivaDesign</Type>
-          <Value>0.4</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>DistanceToAntagonist</Type>
-          <Value>0.1</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>2.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>DistanceToNeighbor</Type>
-          <Value>0</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>ProductionBlankRestrictionType</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -2569,13 +1075,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -2583,88 +1095,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>46</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -2680,24 +1119,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -2715,13 +1154,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -2729,52 +1161,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -2784,13 +1174,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -2798,88 +1194,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>41</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -2895,24 +1218,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -2930,13 +1253,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -2944,52 +1260,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -2999,13 +1273,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -3013,88 +1293,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>42</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -3110,24 +1317,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -3145,13 +1352,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -3159,52 +1359,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -3214,13 +1372,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -3228,88 +1392,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>43</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -3325,24 +1416,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -3360,13 +1451,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -3374,52 +1458,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -3429,13 +1471,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -3443,88 +1491,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>44</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -3540,24 +1515,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -3575,13 +1550,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -3589,52 +1557,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -3644,13 +1570,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -3658,88 +1590,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>45</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -3755,24 +1614,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -3790,13 +1649,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -3804,52 +1656,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -3859,13 +1669,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -3873,88 +1689,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>31</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -3970,24 +1713,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -4005,13 +1748,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -4019,52 +1755,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -4074,13 +1768,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -4088,88 +1788,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>32</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -4185,24 +1812,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -4220,13 +1847,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -4234,52 +1854,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -4289,13 +1867,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -4303,88 +1887,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>33</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -4400,24 +1911,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -4435,13 +1946,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -4449,52 +1953,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -4504,13 +1966,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -4518,88 +1986,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>34</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -4615,24 +2010,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -4650,13 +2045,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -4664,52 +2052,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -4719,13 +2065,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -4733,88 +2085,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>35</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -4830,24 +2109,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -4865,13 +2144,6 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
@@ -4879,52 +2151,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -4934,13 +2164,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -4948,88 +2184,15 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
     <Tooth>
       <Number>36</Number>
-      <ReconstructionType>AnatomicWaxup</ReconstructionType>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
-        <Parameter>
-          <Type>MinThickness</Type>
-          <Value>0.5</Value>
-          <MinValue>0.3</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapThickness</Type>
-          <Value>0.08</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapStart</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CementGapEnd</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>3</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingZ</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownAdditionalSpacingX</Type>
-          <Value>0.02</Value>
-          <MinValue>-0.5</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.005</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderHorizontalSize</Type>
-          <Value>0.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0.5</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngledSize</Type>
-          <Value>0.3</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderVerticalSize</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownBorderAngle</Type>
-          <Value>60</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>90</MaxValue>
-          <StepSize>1</StepSize>
-        </Parameter>
         <Parameter>
           <Type>MillingDiameter</Type>
           <Value>1.2</Value>
@@ -5045,24 +2208,24 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>UntouchableZoneNearPreparationMargin</Type>
-          <Value>0.1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>2</MaxValue>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
           <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AdditionalBlockOutAngleAfterCementGap</Type>
-          <Value>-1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
           <Type>MinThicknessGingivaDesign</Type>
           <Value>0.4</Value>
           <MinValue>0.2</MinValue>
           <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -5080,9 +2243,101 @@
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessOcclusalOffset</Type>
+          <Type>ProductionBlankRestrictionType</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
+          <MaxValue>3</MaxValue>
+          <StepSize>1</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>2</MaxValue>
+          <StepSize>0.1</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>VirtualGingivaDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+      </Parameters>
+      <MaterialName>Cera</MaterialName>
+      <Material>WAX</Material>
+      <PreparationType>Pontic</PreparationType>
+      <SituScan>false</SituScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
+    </Tooth>
+    <Tooth>
+      <Number>26</Number>
+      <ReconstructionType>AnatomicPontic</ReconstructionType>
+      <MesialConnector>false</MesialConnector>
+      <Parameters>
+        <Parameter>
+          <Type>MillingDiameter</Type>
+          <Value>1.2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1.5</MaxValue>
+          <StepSize>0.05</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>MillingMachineAxes</Type>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>5</MaxValue>
+          <StepSize>1</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>ConnectorArea</Type>
+          <Value>9</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>30</MaxValue>
+          <StepSize>0.1</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>MinThicknessGingivaDesign</Type>
+          <Value>0.4</Value>
+          <MinValue>0.2</MinValue>
+          <MaxValue>1</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToGingiva</Type>
+          <Value>0</Value>
+          <MinValue>-2</MinValue>
+          <MaxValue>4</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToAntagonist</Type>
+          <Value>0.1</Value>
+          <MinValue>-0.5</MinValue>
+          <MaxValue>2.5</MaxValue>
+          <StepSize>0.01</StepSize>
+        </Parameter>
+        <Parameter>
+          <Type>DistanceToNeighbor</Type>
+          <Value>0</Value>
+          <MinValue>-1</MinValue>
           <MaxValue>1</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
@@ -5094,52 +2349,10 @@
           <StepSize>1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>MinThicknessReducedValue</Type>
-          <Value>0.2</Value>
-          <MinValue>0.2</MinValue>
-          <MaxValue>0.2</MaxValue>
-          <StepSize>0</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentMillingDiameter</Type>
-          <Value>1.2</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>1.5</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureOffset</Type>
-          <Value>0</Value>
+          <Type>ConnectorMinimumDistanceToScanDataOnBottom</Type>
+          <Value>0.5</Value>
           <MinValue>-2</MinValue>
           <MaxValue>2</MaxValue>
-          <StepSize>0.01</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>AbutmentCutScrewChannelAlsoThroughSuperstructureMinDiameter</Type>
-          <Value>1</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
@@ -5149,13 +2362,19 @@
           <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
+          <Type>ThimbleCrownDesignMode</Type>
+          <Value>1</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1</MaxValue>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
+          <Type>VirtualExtractionInWizardMode</Type>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+        </Parameter>
+        <Parameter>
+          <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
@@ -5163,12 +2382,9 @@
       </Parameters>
       <MaterialName>Cera</MaterialName>
       <Material>WAX</Material>
-      <ImplantType>None</ImplantType>
-      <ScanAbutmentScan ParentParamRef="ImplantType">false</ScanAbutmentScan>
-      <PreparationType>Crown</PreparationType>
-      <SeparateGingivaScan>false</SeparateGingivaScan>
+      <PreparationType>Pontic</PreparationType>
       <SituScan>false</SituScan>
-      <SeparateWaxupScan>true</SeparateWaxupScan>
+      <SeparateGingivaScan>false</SeparateGingivaScan>
     </Tooth>
   </Teeth>
   <Practice>
