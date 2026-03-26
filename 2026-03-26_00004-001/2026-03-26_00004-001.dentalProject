@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Treatment>
-  <DateTime>2026-03-26T15:00:07.8955111-03:00</DateTime>
+  <DateTime>2026-03-26T15:00:07.8955111</DateTime>
   <TrayNo>1</TrayNo>
   <Notes>Coroa zircônia do 46. Cor A2/cervical A3.
 ARQUIVOS .STL VIA WHATSAPP.</Notes>
@@ -286,6 +286,6 @@ ARQUIVOS .STL VIA WHATSAPP.</Notes>
   <DentalDBBuildDate>2024-09-27</DentalDBBuildDate>
   <DentalDBProductName>exocad DentalDB 3.2 Elefsina 9036 [Version 3.2 Engine build 9036] [&lt;64-Bit&gt;] </DentalDBProductName>
   <DatabaseGUID>7905c58a-0210-4354-9d7d-e7d10e450dd1</DatabaseGUID>
-  <ToothColor>---</ToothColor>
   <AntagonistType>RegisteredJaws</AntagonistType>
+  <ToothColor>---</ToothColor>
 </Treatment>
