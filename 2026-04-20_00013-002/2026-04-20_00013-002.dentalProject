@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Treatment>
-  <DateTime>2026-04-20T11:30:33.0324377-03:00</DateTime>
+  <DateTime>2026-04-20T11:30:33.0324377</DateTime>
   <TrayNo>2</TrayNo>
   <Notes>bloco e-max el. 47</Notes>
   <WorkParamsSHA>bipS9FTAfoYDjMWSevzXjEB/GhA=</WorkParamsSHA>
@@ -11,14 +11,14 @@
   <Teeth>
     <Tooth>
       <Number>47</Number>
-      <ReconstructionType>OverlayCrown</ReconstructionType>
+      <ReconstructionType>AnatomicInlay</ReconstructionType>
       <MesialConnector>false</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>MinThickness</Type>
-          <Value>0.8</Value>
-          <MinValue>0.4</MinValue>
-          <MaxValue>1.5</MaxValue>
+          <Value>0.5</Value>
+          <MinValue>0.3</MinValue>
+          <MaxValue>1</MaxValue>
           <StepSize>0.01</StepSize>
         </Parameter>
         <Parameter>
@@ -155,50 +155,16 @@
           <StepSize>0.1</StepSize>
         </Parameter>
         <Parameter>
-          <Type>CrownGenDistanceToAntagonist</Type>
-          <Value>-0.05</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.05</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDistanceToNeighbor</Type>
-          <Value>-0.1</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenStyleRequestedSurfaceDetails</Type>
-          <Value>0.7</Value>
-          <MinValue>-1</MinValue>
-          <MaxValue>1</MaxValue>
-          <StepSize>0.1</StepSize>
-        </Parameter>
-        <Parameter>
           <Type>CopyInWizardMode</Type>
           <Value>0</Value>
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
         </Parameter>
-        <Parameter>
-          <Type>CrownGenActivationMode</Type>
-          <Value>3</Value>
-          <MinValue>3</MinValue>
-          <MaxValue>3</MaxValue>
-        </Parameter>
-        <Parameter>
-          <Type>CrownGenDoMaxDepth</Type>
-          <Value>0</Value>
-          <MinValue>0</MinValue>
-          <MaxValue>0</MaxValue>
-        </Parameter>
       </Parameters>
-      <MaterialName>Dissilicato de lítio</MaterialName>
-      <Material>LS2</Material>
+      <MaterialName>Cera</MaterialName>
+      <Material>WAX</Material>
       <PreparationType>Inlay</PreparationType>
       <SituScan>false</SituScan>
-      <Color>---</Color>
     </Tooth>
     <Tooth>
       <Number>17</Number>
@@ -229,6 +195,6 @@
   <DentalDBBuildDate>2024-09-27</DentalDBBuildDate>
   <DentalDBProductName>exocad DentalDB 3.2 Elefsina 9036 [Version 3.2 Engine build 9036] [&lt;64-Bit&gt;] </DentalDBProductName>
   <DatabaseGUID>7905c58a-0210-4354-9d7d-e7d10e450dd1</DatabaseGUID>
-  <ToothColor>---</ToothColor>
   <AntagonistType>RegisteredJaws</AntagonistType>
+  <ToothColor>---</ToothColor>
 </Treatment>
