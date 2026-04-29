@@ -60,7 +60,7 @@
     <Tooth>
       <Number>11</Number>
       <ReconstructionType>Coping</ReconstructionType>
-      <MesialConnector>true</MesialConnector>
+      <MesialConnector>false</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>MinThickness</Type>
@@ -314,7 +314,7 @@
     <Tooth>
       <Number>22</Number>
       <ReconstructionType>Coping</ReconstructionType>
-      <MesialConnector>true</MesialConnector>
+      <MesialConnector>false</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>MinThickness</Type>
@@ -568,7 +568,7 @@
     <Tooth>
       <Number>21</Number>
       <ReconstructionType>Coping</ReconstructionType>
-      <MesialConnector>true</MesialConnector>
+      <MesialConnector>false</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>MinThickness</Type>
