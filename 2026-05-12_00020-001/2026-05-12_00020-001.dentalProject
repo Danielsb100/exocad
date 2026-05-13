@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Treatment>
-  <DateTime>2026-05-12T16:09:56.7328023-03:00</DateTime>
+  <DateTime>2026-05-12T16:09:56.7328023</DateTime>
   <TrayNo>1</TrayNo>
   <Notes>Repetição de ponte fixa monolítica de zircônia.
 ARQUIVOS .STL VIA E-MAIL.</Notes>
@@ -276,7 +276,7 @@ ARQUIVOS .STL VIA E-MAIL.</Notes>
     <Tooth>
       <Number>17</Number>
       <ReconstructionType>AnatomicCrown</ReconstructionType>
-      <MesialConnector>false</MesialConnector>
+      <MesialConnector>true</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>CementGapThickness</Type>
@@ -539,7 +539,7 @@ ARQUIVOS .STL VIA E-MAIL.</Notes>
     <Tooth>
       <Number>16</Number>
       <ReconstructionType>AnatomicPontic</ReconstructionType>
-      <MesialConnector>false</MesialConnector>
+      <MesialConnector>true</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>MillingDiameter</Type>
@@ -665,6 +665,6 @@ ARQUIVOS .STL VIA E-MAIL.</Notes>
   <DentalDBBuildDate>2024-09-27</DentalDBBuildDate>
   <DentalDBProductName>exocad DentalDB 3.2 Elefsina 9036 [Version 3.2 Engine build 9036] [&lt;64-Bit&gt;] </DentalDBProductName>
   <DatabaseGUID>7905c58a-0210-4354-9d7d-e7d10e450dd1</DatabaseGUID>
-  <ToothColor>C2</ToothColor>
   <AntagonistType>RegisteredJaws</AntagonistType>
+  <ToothColor>C2</ToothColor>
 </Treatment>
