@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Treatment>
-  <DateTime>2026-08-27T15:30:10.9422307-03:00</DateTime>
+  <DateTime>2026-08-27T15:30:10.9422307</DateTime>
   <TrayNo>1</TrayNo>
   <Notes>Fazer coroa parcial em cerâmica. O caso é uma repetição. Verificar na imagem acima o degrau absurdo que ficou, solicito fazer com que não fique este degrau. Não estou dizendo que não irei pagar, somente para saber que foi um trabalho que eu mesma fiz e não posso deixar a paciente desta maneira. 
 2 MOLDEIRAS PARCIAIS COM MOLDAGENS E MODELOS SUPERIORES E INFERIORES E 1 REGISTRO OCLUSAL EM CERA 7.</Notes>
@@ -230,6 +230,6 @@
   <DentalDBBuildDate>2024-09-27</DentalDBBuildDate>
   <DentalDBProductName>exocad DentalDB 3.2 Elefsina 9036 [Version 3.2 Engine build 9036] [&lt;64-Bit&gt;] </DentalDBProductName>
   <DatabaseGUID>7905c58a-0210-4354-9d7d-e7d10e450dd1</DatabaseGUID>
-  <ToothColor>---</ToothColor>
   <AntagonistType>RegisteredJaws</AntagonistType>
+  <ToothColor>---</ToothColor>
 </Treatment>
