@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Treatment>
-  <DateTime>2026-08-28T14:38:26.0670174-03:00</DateTime>
+  <DateTime>2026-08-28T14:38:26.0670174</DateTime>
   <TrayNo>1</TrayNo>
   <Notes>Ponte fixa metalocerâmica em cantilever. Prova da estrutura metálica. 44, 45 e 46</Notes>
   <WorkParamsSHA>bipS9FTAfoYDjMWSevzXjEB/GhA=</WorkParamsSHA>
@@ -281,7 +281,7 @@
     <Tooth>
       <Number>45</Number>
       <ReconstructionType>Coping</ReconstructionType>
-      <MesialConnector>false</MesialConnector>
+      <MesialConnector>true</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>MinThickness</Type>
@@ -550,7 +550,7 @@
     <Tooth>
       <Number>46</Number>
       <ReconstructionType>ReducedPontic</ReconstructionType>
-      <MesialConnector>false</MesialConnector>
+      <MesialConnector>true</MesialConnector>
       <Parameters>
         <Parameter>
           <Type>Shrinking</Type>
@@ -689,6 +689,6 @@
   <DentalDBBuildDate>2024-09-27</DentalDBBuildDate>
   <DentalDBProductName>exocad DentalDB 3.2 Elefsina 9036 [Version 3.2 Engine build 9036] [&lt;64-Bit&gt;] </DentalDBProductName>
   <DatabaseGUID>7905c58a-0210-4354-9d7d-e7d10e450dd1</DatabaseGUID>
-  <ToothColor>---</ToothColor>
   <AntagonistType>RegisteredJaws</AntagonistType>
+  <ToothColor>---</ToothColor>
 </Treatment>
